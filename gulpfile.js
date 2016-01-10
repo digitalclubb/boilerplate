@@ -10,5 +10,5 @@ gulp.task( 'default', function() {
 gulp.task('sass', function () {
 	gulp.src( './sass/**/*.scss' )
 		.pipe( sass( { outputStyle: 'compressed' } ) )
-		.pipe( gulp.dest( './css' ) );
+		.pipe( gulp.dest( './deploy/css' ) );
 });
