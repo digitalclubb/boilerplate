@@ -1,34 +1,36 @@
-body{
+body {
 	font-family: $font-body;
-	font-size:62.5%;
-	color:$body;
+	font-size: 62.5%;
+	color: $text-colour;
 }
-h1, h2, h3, h4, h5, h6{
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
 	font-family: $font-heading;
-	font-weight:normal;
+	font-weight: normal;
 }
-h1{
-	font-size:3.5em;
+h1 {
+	font-size: 3.5em;
 }
-h2{
-	font-size:3em;
+h2 {
+	font-size: 3em;
 }
-h3{
-	font-size:2.2em;
+h3 {
+	font-size: 2.2em;
 }
-h4{
-	font-size:1.8em;
+h4 {
+	font-size: 1.8em;
 }
-h5{
-	font-size:1.5em;
+h5 {
+	font-size: 1.5em;
 }
-h6{
-	font-size:1.2em;
+h6 {
+	font-size: 1.2em;
 }
-p{
-	font-size:1.5em;
-	line-height:150%;
-}
-blockquote{
-
+p {
+	font-size: 1.5em;
+	line-height: 150%;
 }
